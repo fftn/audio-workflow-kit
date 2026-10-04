@@ -1,0 +1,41 @@
+{
+  "status": "rounded_historical_measurements",
+  "sample_description": "one approximately 25-minute private sample; data not distributed",
+  "hardware": "NVIDIA RTX 4090",
+  "scope_comparable": false,
+  "ground_truth_available": false,
+  "accuracy_ranking_supported": false,
+  "rows": [
+    {
+      "configuration": "faster-whisper large-v3 FP16",
+      "seconds_rounded": 42,
+      "rtf_rounded": 0.028,
+      "scope": "per-file ASR call; model load excluded"
+    },
+    {
+      "configuration": "Qwen3-ASR-1.7B + ForcedAligner",
+      "seconds_rounded": 48,
+      "rtf_rounded": 0.032,
+      "scope": "worker total including alignment"
+    },
+    {
+      "configuration": "Sortformer 4spk v2.1",
+      "seconds_rounded": 3.3,
+      "rtf_rounded": 0.0022,
+      "scope": "worker total"
+    },
+    {
+      "configuration": "pyannote Community-1",
+      "seconds_rounded": 11,
+      "rtf_rounded": 0.0074,
+      "scope": "load plus inference"
+    },
+    {
+      "configuration": "VibeVoice-ASR",
+      "seconds_rounded": 738,
+      "rtf_rounded": 0.49,
+      "scope": "load plus generation",
+      "output_cap_reached": true
+    }
+  ]
+}

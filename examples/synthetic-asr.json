@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "synthetic": true,
+    "duration_seconds": 10
+  },
+  "segments": [
+    {
+      "start": 0,
+      "end": 2,
+      "text": "完全虚构的主题A测试片段。"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "text": "完全虚构的主题B测试片段。"
+    },
+    {
+      "start": 8,
+      "end": 9,
+      "text": "没有可用声音归属的合成片段。"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "text": "时间无效的合成片段。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# Fill in values in the recipient's own environment.
+[storage]
+run_root = "runs"
+model_cache = "cache"
+
+[execution]
+mode = "local"
+ssh_alias = ""
+remote_task_root = ""
+
+[asr]
+backend = "faster-whisper"
+model = "large-v3"
+device = "cuda"
+compute_type = "float16"
+language = "zh"
+beam_size = 5
+best_of = 5
+vad = true
+min_silence_ms = 450
+condition_on_previous_text = false
+
+[diarization]
+model = "nvidia/diar_streaming_sortformer_4spk-v2.1"
+chunk_len = 340
+chunk_right_context = 40
+fifo_len = 40
+speaker_cache_update_period = 300
+speaker_cache_len = 188
+
+[report]
+model = ""
+reasoning_effort = "medium"
+
+[classification]
+topic_labels = []
+allow_multiple_topics = true

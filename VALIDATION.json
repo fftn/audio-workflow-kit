@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "prepared_on": "2026-10-04",
+  "public_file_count": 29,
+  "skills_format_validation": {
+    "skills": 4,
+    "passed": 4
+  },
+  "public_scope": {
+    "rewritten_generic_documents": true,
+    "real_recordings_or_transcripts_included": false,
+    "real_topics_or_taxonomy_included": false,
+    "private_paths_hosts_accounts_included": false,
+    "examples_are_synthetic": true,
+    "performance_records_are_rounded_numeric_excerpts": true
+  },
+  "helper_checks": {
+    "syntax": true,
+    "synthetic_text_preservation": true,
+    "unknown_speaker_and_invalid_time": true,
+    "overlap_marker": true,
+    "out_of_bounds_diarization_rejected": true,
+    "asr_and_diarization_dry_run": true,
+    "cpu_int8_default_dry_run": true,
+    "dry_run_creates_no_transcript_and_preserves_source": true,
+    "compute_formula_and_invalid_inputs": true,
+    "injected_email_leak_detection": true,
+    "repository_metadata_excluded_only_at_root": true
+  },
+  "full_gpu_inference_rerun": false,
+  "controlled_accuracy_comparison_available": false,
+  "review_limit": "Pattern scans are not a general guarantee of semantic anonymity; these rewritten files were individually reviewed for the stated public scope."
+}

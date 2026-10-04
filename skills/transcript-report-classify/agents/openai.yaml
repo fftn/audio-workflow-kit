@@ -1,0 +1,4 @@
+interface:
+  display_name: "全文分类与证据报告"
+  short_description: "处理指定材料并保留来源证据、质量限制和可追溯结果，按用户目标选择流程。"
+  default_prompt: "使用 $transcript-report-classify 处理我指定的材料，保留证据并说明不确定项。"
